@@ -7,6 +7,11 @@ export default function NavBar() {
             <Navbar.Brand href="#home">
                 RESTCOUNTRIESAPI VIA GRROOM
             </Navbar.Brand>
+            <Navbar.Collapse className="justify-content-end">
+                <Navbar.Text>
+                <a href="https://restcountries.eu/" target="_blank" rel="noopener noreferrer">Docs</a>
+                </Navbar.Text>
+            </Navbar.Collapse>
         </Navbar>
     )
 }
